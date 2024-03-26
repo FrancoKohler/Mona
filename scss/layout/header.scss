@@ -1,0 +1,32 @@
+body{
+    header{
+        background-color: rgba(250, 249, 249, 0.5);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin:auto;
+        justify-content: space-between;
+        .mona{background-color: aqua;
+            padding-left: 150px;
+        }
+        .first{list-style: none;
+            font-weight: 500;
+            display: flex;
+            color: #1F2223;
+            li{margin: 10px;
+                a{text-decoration: none;
+                color: #000;}
+            }
+        }
+        .second{list-style: none;
+            font-weight: 500;
+            display: flex;
+            color: #1F2223;
+            li{margin: 10px;
+                a{text-decoration: none;
+                color: #000;}
+            }
+
+        }
+    }
+}  
