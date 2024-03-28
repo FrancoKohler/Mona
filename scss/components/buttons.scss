@@ -1,0 +1,65 @@
+.collection{
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    width: 219px;
+    height: 50px;
+    margin-top: 25px;
+    border: solid 0.5px #aaaaaa;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+ }
+
+ .products{
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    width: 119px;
+    height: 50px;
+    border: solid 0.5px #aaaaaa;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+
+ .aboutus{
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    width: 115px;
+    height: 50px;
+    border: solid 0.5px #aaaaaa;
+    border-radius: 5px;
+    padding: 15px 15px 20px 20px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .newsletteremail{
+   display: flex;
+   align-items:center;
+   width: 100%;
+   height: 35px;
+   color: #8E8E8E;
+   background-color: #F3F2F0;
+   font-family: montserrat;
+   border: #909090 solid 1px;
+   border-radius: 5px;
+
+ }
