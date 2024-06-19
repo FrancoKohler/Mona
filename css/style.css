@@ -138,7 +138,6 @@ footer .footergrid .footerfollow .payment {
 }
 
 body main .dualbackground {
-  background-image: url("/Assets/Mainback.png");
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
   height: 546px;
@@ -161,7 +160,7 @@ body main .dualbackground ul li header {
   margin: auto;
 }
 body main .twoproducts {
-  background-color: #FAF9F9;
+  background-color: #faf9f9;
   border-radius: solid 0.5px #928383;
 }
 body main .twoproducts header {
@@ -183,7 +182,6 @@ body main .twoproducts .grid-twoproducts .column-1 {
   margin-left: 350px;
   height: 535.4px;
   width: 421px;
-  background-image: url(/Assets/Foto\ tote.png);
   background-repeat: no-repeat;
 }
 body main .twoproducts .grid-twoproducts .column-2 {
@@ -191,11 +189,10 @@ body main .twoproducts .grid-twoproducts .column-2 {
   margin-right: 350px;
   height: 535.4px;
   width: 421px;
-  background-image: url(/Assets/Handbags.png);
   background-repeat: no-repeat;
 }
 body main .threeproducts {
-  background-color: #FAF9F9;
+  background-color: #faf9f9;
   border-radius: solid 0.5px #928383;
   margin-right: 0px;
 }
@@ -272,7 +269,7 @@ body main .info .grid-info .infocol .logogrid .otherinfo .textinfo {
   font-size: 20px;
 }
 body main .choosesection {
-  background-color: #FAF9F9;
+  background-color: #faf9f9;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -305,7 +302,7 @@ body main .choosesection div img {
   width: 100%;
 }
 body main .reviewsection {
-  background-color: #F3F2F0;
+  background-color: #f3f2f0;
   margin: auto;
   justify-content: center;
   text-align: center;
