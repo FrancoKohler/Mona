@@ -1,5 +1,5 @@
 body header nav {
-  background-color: rgba(250, 249, 249, 0.5);
+  background-color: rgba(250, 249, 249, 0.8);
   display: flex;
   align-items: center;
   text-align: center;
@@ -10,14 +10,16 @@ body header nav {
   left: 0;
   width: 100%;
 }
-body header nav .mona {
-  padding-left: 100px;
+body header nav .monanavbar {
+  padding-left: 50px;
+  font-family: League Spartan;
+  font-size: 40px;
 }
 body header nav .first {
   list-style: none;
   font-weight: 400;
   display: flex;
-  color: #1F2223;
+  color: #1f2223;
 }
 body header nav .first li {
   margin: 10px;
@@ -36,7 +38,7 @@ body header nav .second {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1F2223;
+  color: #1f2223;
   padding-right: 25px;
 }
 body header nav .second li {
@@ -52,11 +54,87 @@ body header nav .second li img {
   cursor: pointer;
 }
 
-body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  background-color: #FAF9F9;
+footer {
+  background-color: #f3f2f0;
+  height: fit-content;
+}
+footer .footergrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+footer .footergrid .footermona {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 40px;
+  padding-left: 50px;
+}
+footer .footergrid .footermona .footermonatext {
+  font-family: League Spartan;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 130px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+footer .footergrid .footerinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 40px;
+  height: 100%;
+}
+footer .footergrid .footerinfo .contact {
+  margin-bottom: 15px;
+}
+footer .footergrid .footerinfo a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #1e1e1e;
+}
+footer .footergrid .footerinfo .privacy {
+  margin-bottom: 15px;
+}
+footer .footergrid .footerinfo .support {
+  margin-top: 15px;
+}
+footer .footergrid .footernewsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+footer .footergrid .footernewsletter a {
+  font-size: 15px;
+  padding: 10px;
+}
+footer .footergrid .footerfollow {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+footer .footergrid .footerfollow a {
+  padding-bottom: 15px;
+}
+footer .footergrid .footerfollow div {
+  padding-bottom: 15px;
+}
+footer .footergrid .footerfollow .payment {
+  padding-top: 15px;
+  width: 168px;
+  height: 22px;
 }
 
 body main .dualbackground {
@@ -76,7 +154,7 @@ body main .dualbackground ul {
   text-decoration: none;
   list-style: none;
 }
-body main .dualbackground ul li h1 {
+body main .dualbackground ul li header {
   font-weight: 500;
   font-size: 48px;
   color: white;
@@ -86,7 +164,7 @@ body main .twoproducts {
   background-color: #FAF9F9;
   border-radius: solid 0.5px #928383;
 }
-body main .twoproducts h2 {
+body main .twoproducts header {
   text-align: center;
   font-weight: 400;
   font-size: 36px;
@@ -214,7 +292,7 @@ body main .choosesection .choosediv {
   width: 412.71px;
   height: 189px;
 }
-body main .choosesection .choosediv h3 {
+body main .choosesection .choosediv header {
   font-size: 36px;
   font-weight: 400;
 }
@@ -233,7 +311,7 @@ body main .reviewsection {
   text-align: center;
   border: solid 0.5px #bfbfbf;
 }
-body main .reviewsection h4 {
+body main .reviewsection header {
   font-size: 36px;
   font-weight: 400;
   padding-top: 100px;
@@ -267,6 +345,13 @@ body main .reviewsection .reviews img {
 }
 body main .reviewsection .reviews .reviewtext {
   font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  background-color: #FAF9F9;
 }
 
 .collection {
@@ -330,90 +415,6 @@ body main .reviewsection .reviews .reviewtext {
   font-family: montserrat;
   border: #909090 solid 1px;
   border-radius: 5px;
-}
-
-footer {
-  background-color: #F3F2F0;
-  height: fit-content;
-}
-footer .footergrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  padding-bottom: 50px;
-}
-footer .footergrid .footermona {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 10px;
-  margin-top: 40px;
-}
-footer .footergrid .footermona .footermonatext {
-  font-family: League Spartan;
-  font-size: 40px;
-  margin-top: 40px;
-  margin-bottom: 130px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-footer .footergrid .footerinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  margin: 40px;
-  height: 100%;
-}
-footer .footergrid .footerinfo .contact {
-  margin-bottom: 15px;
-}
-footer .footergrid .footerinfo a {
-  font-size: 15px;
-  text-decoration: none;
-  color: #1E1E1E;
-}
-footer .footergrid .footerinfo .privacy {
-  margin-bottom: 15px;
-}
-footer .footergrid .footerinfo .support {
-  margin-top: 15px;
-}
-footer .footergrid .footernewsletter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 400px;
-  margin-top: 40px;
-  margin-bottom: 100px;
-  background-color: aqua;
-}
-footer .footergrid .footernewsletter a {
-  font-size: 15px;
-  padding: 10px;
-}
-footer .footergrid .footerfollow {
-  display: flex;
-  flex-direction: column;
-  padding-left: 150px;
-  padding-bottom: 30px;
-  background-color: aqua;
-  justify-content: center;
-}
-footer .footergrid .footerfollow a {
-  padding-bottom: 15px;
-}
-footer .footergrid .footerfollow div {
-  padding-bottom: 15px;
-}
-footer .footergrid .footerfollow .payment {
-  padding-top: 15px;
-  width: 168px;
-  height: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

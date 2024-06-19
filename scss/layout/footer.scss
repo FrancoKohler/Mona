@@ -1,86 +1,83 @@
-footer{
-    background-color: #F3F2F0;
-    height: fit-content;
-    .footergrid{
+footer {
+  background-color: #f3f2f0;
+  height: fit-content;
+  .footergrid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
     margin: auto;
     padding-bottom: 50px;
-    .footermona{
-        display: flex;
-        flex-direction: column;
-        align-items:flex-start;
-        justify-content: center;
-        margin: 10px;
+    .footermona {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 10px;
+      margin-top: 40px;
+      padding-left: 50px;
+      .footermonatext {
+        font-family: League Spartan;
+        font-size: 40px;
         margin-top: 40px;
-        .footermonatext{
-            font-family: League Spartan;
-            font-size: 40px;
-            margin-top: 40px;
-            margin-bottom: 130px;
-            display: flex;
-            align-items:flex-start;
-            justify-content:flex-start;
-        } 
-    }
-    .footerinfo{
+        margin-bottom: 130px;
         display: flex;
-        flex-direction: column;
-        align-items:start;
-        justify-content: center;
-        margin: 40px;
-        height: 100%;
-        .contact{
-            margin-bottom: 15px;
-        }
-        a{ font-size: 15px;
-            text-decoration: none;
-            color:#1E1E1E;
-        }
-        .privacy{
-            margin-bottom: 15px;
-        }
-        .support{
-            margin-top: 15px;
-        }
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
     }
-    .footernewsletter{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 400px;
-        margin-top: 40px;
-        margin-bottom: 100px;
-        background-color: aqua; 
-        a{
-            font-size: 15px;
-            padding: 10px;
-            }
-        
+    .footerinfo {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      margin: 40px;
+      height: 100%;
+      .contact {
+        margin-bottom: 15px;
+      }
+      a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #1e1e1e;
+      }
+      .privacy {
+        margin-bottom: 15px;
+      }
+      .support {
+        margin-top: 15px;
+      }
     }
-    .footerfollow{
-        display: flex;
-        flex-direction: column;
-        padding-left: 150px;
-        padding-bottom: 30px;
-        background-color: aqua;
-        justify-content: center;
-    
-        a{
-            padding-bottom: 15px;
-        }
-        div{
-            padding-bottom: 15px;
-        }
-        .payment{
-            padding-top: 15px;
-            width: 168px;
-            height: 22px;
+    .footernewsletter {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 400px;
+      margin-top: 40px;
+      margin-bottom: 100px;
 
-        }
+      a {
+        font-size: 15px;
+        padding: 10px;
+      }
     }
-    
+    .footerfollow {
+      display: flex;
+      flex-direction: column;
+      padding-left: 150px;
+      padding-bottom: 30px;
+      justify-content: center;
+      a {
+        padding-bottom: 15px;
+      }
+      div {
+        padding-bottom: 15px;
+      }
+      .payment {
+        padding-top: 15px;
+        width: 168px;
+        height: 22px;
+      }
     }
+  }
 }
